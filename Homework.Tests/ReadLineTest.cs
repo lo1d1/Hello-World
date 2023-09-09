@@ -18,6 +18,19 @@ public class ReadLineTest
         var result = NumbersExtensions.IsEven(number);
 
         // Assert - проверка утверждений
+        Assert.True(result);
+    }
+    
+    [Fact]
+    public void IsEven_Returns_Fails()
+    {
+        // Arrange - подготовка данных
+        var number = 3;
+
+        // Act - выполнение действия
+        var result = NumbersExtensions.IsEven(number);
+
+        // Assert - проверка утверждений
         Assert.False(result);
     }
 }
