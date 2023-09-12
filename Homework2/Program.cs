@@ -24,11 +24,11 @@ namespace Homework2
 
 
             Console.Write("Висота трикутника: ");
-            int heighd2 = int.Parse(Console.ReadLine());
+            int height2 = int.Parse(Console.ReadLine());
 
-            for (int i = 0; i < heighd2; i++)
+            for (int i = 0; i < height2; i++)
             {                
-                for (int j = heighd2; j > i; j--)
+                for (int j = height2; j > i; j--)
                 {
                     Console.Write("#");
                 }
@@ -40,7 +40,7 @@ namespace Homework2
 
             for (int i = 0; i < height3; i++)
             {
-                for (int j = heighd2; j > i; j--)
+                for (int j = height2; j > i; j--)
                 {
                     Console.Write(" ");
                 }              
@@ -53,16 +53,16 @@ namespace Homework2
             }
 
             Console.Write("Висота трикутника: ");
-            int heighd4 = int.Parse(Console.ReadLine());
+            int height4 = int.Parse(Console.ReadLine());
 
-            for (int i = 0; i < heighd4; i++)
+            for (int i = 0; i < height4; i++)
             {
                 for (int j = 0; j <= i; j++)
                 {
                     Console.Write(" ");
                 }
 
-                for (int j = heighd4; j > i; j--)
+                for (int j = height4; j > i; j--)
                 {
                     Console.Write("#");
                 }
