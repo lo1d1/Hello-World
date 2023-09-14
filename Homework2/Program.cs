@@ -47,7 +47,7 @@ namespace Homework2
 
                 for (int j = 0; j <= i; j++)
                 {
-                    Console.Write("!");
+                    Console.Write("#");
                 }
                 Console.WriteLine();
             }
