@@ -2,7 +2,7 @@
 
 public class ReadLineTest
 {
-    [Fact(Skip = "Will be fixed later")]
+    [Fact(Skip = "Will be fixed later or now")]
     public void ReadLine_Int()
     {
         var result = NumbersExtensions.ReadLine();
