@@ -24,6 +24,6 @@ while (limit1 <= limit2)
 }
 //Console.WriteLine("Кількість непарних чисел = " + oddNumberCount);
 //Console.WriteLine("Кількість парних чисел = " + evenNumberCount);
-Console.WriteLine("Number of odd numbers = " + oddNumberCount);
+Console.WriteLine("Number of odd numbers equal " + oddNumberCount);
 Console.WriteLine("Number of even numbers = " + evenNumberCount);
 Console.ReadLine();
