@@ -29,6 +29,7 @@ namespace MassiveHomework
             {
                 Console.WriteLine(Array2[i]);               
             }
+            Math.Sqrt(16);
         }
     }
 }

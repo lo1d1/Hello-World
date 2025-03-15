@@ -13,11 +13,15 @@ namespace Homework2
             Console.Write("Висота трикутника: ");
             int height = int .Parse(Console.ReadLine());
 
+            Console.Write("Введіть символ: ");
+            char symbol = Console .ReadKey().KeyChar;
+
+            Console.WriteLine("\nНаш трикутник: ");
             for (int i = 0; i < height; i++) 
             {
                 for (int j = 0; j <=i; j++)
                 {                   
-                    Console.Write("!");
+                    Console.Write(symbol);
                 }
                 Console.WriteLine();
             }

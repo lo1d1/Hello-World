@@ -11,14 +11,14 @@ namespace Homework
             int evenNumberCount = 0;//парні числа
 
             Console.WriteLine("From");
-            int limit1 = NumbersExtensions.ReadLine();
+            int limit1 = int.Parse(Console.ReadLine());
 
             Console.WriteLine("To");
-            int limit2 = NumbersExtensions.ReadLine();
+            int limit2 = int.Parse(Console.ReadLine());
 
             while (limit1 <= limit2)
             {
-                if (NumbersExtensions.IsEven(limit1))
+                if (limit1 % 2 == 0)
                 {
                     evenNumberCount++;
                 }
